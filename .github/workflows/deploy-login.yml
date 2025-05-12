@@ -1,4 +1,4 @@
-name: Deploy Login App
+name: Deploy Task App
 
 on:
   push:
