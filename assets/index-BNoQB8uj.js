@@ -15827,7 +15827,7 @@ var clientExports = requireClient();
 
 await importShared('react');
 function App() {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "App - this is empty - task app" }) });
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "App - this is empty - task app -test" }) });
 }
 
 clientExports.createRoot(document.getElementById("root")).render(
