@@ -4,7 +4,7 @@ import federation from '@originjs/vite-plugin-federation'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/task-app/',
+  base: '/task-remote-app/',
   plugins: [react(),
     federation({
       name:'taskApp',
