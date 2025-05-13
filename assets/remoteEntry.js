@@ -3,7 +3,7 @@ const currentImports = {};
       let moduleMap = {
 "./TaskDashboard":()=>{
       dynamicLoadingCss(["style-6eT81ULQ.css"], false, './TaskDashboard');
-      return __federation_import('/task-app/assets/__federation_expose_TaskDashboard-D_AXdd7x.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
+      return __federation_import('/task-remote-app/assets/__federation_expose_TaskDashboard-CmRtma5w.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
       const seen = {};
       const dynamicLoadingCss = (cssFilePaths, dontAppendStylesToHead, exposeItemName) => {
         const metaUrl = import.meta.url;
@@ -13,7 +13,7 @@ const currentImports = {};
         }
 
         const curUrl = metaUrl.substring(0, metaUrl.lastIndexOf('remoteEntry.js'));
-        const base = '/task-app/';
+        const base = '/task-remote-app/';
         'assets';
 
         cssFilePaths.forEach(cssPath => {
